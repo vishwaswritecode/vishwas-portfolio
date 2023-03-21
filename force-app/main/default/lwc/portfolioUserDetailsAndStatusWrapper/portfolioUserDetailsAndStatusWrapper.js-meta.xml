@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>56.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="objectApiName" label="Object API Name" type="String" />
+            <property name="recordId" label="Record ID" type="String" />
+            <property name="badges" label="Badges" type="String" />
+            <property name="points" label="Points" type="String" />
+            <property name="trails" label="Trails" type="String" />
+            <property name="rank" label="Trailhead Rank" type="String" datasource="Ranger,Adventurer,All star ranger,Double star ranger,Expeditioner,Explorer,Five star ranger,Four star ranger,hiker,Mountaineer,Scout,Triple star ranger"/>
+            <property name="resumeURL" label="Resume URL" type="String" />
+            <property name="certifications" label="Salesforce Certifications" type="String" />
+            <property name="copadoCertifications" label="Copado Certifications" type="String" />
+            <property name="vlocityCertifications" label="Vlocity Certifications" type="String" />
+
+            
+            
+
+
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

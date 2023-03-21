@@ -1,0 +1,49 @@
+<template>
+    <template if:true={sfcertiList.length}>
+        <h1 class="slds-var-m-around_medium">Salesforce Certifications</h1>
+        <lightning-layout multiple-rows>
+            <template for:each={sfcertiList} for:item="certi">
+                <lightning-layout-item key={certi} padding="around-small" size="12" medium-device-size="4" small-device-size="6">
+                    <div class="cert-box">
+                        <img src={certLogo} class="certlogo"/>
+                        <span>{certi}</span>
+                    </div>
+                </lightning-layout-item>
+            </template>
+
+        </lightning-layout>
+    </template>
+   
+
+    <template if:true={sfDevopsCertiList.length}>
+        <h1 class="slds-var-m-around_medium">Salesforce Devops Certifications</h1>
+        <lightning-layout multiple-rows>
+            <template for:each={sfDevopsCertiList} for:item="certi">
+                <lightning-layout-item key={certi} padding="around-small" size="12" medium-device-size="4" small-device-size="6">
+                    <div class="cert-box">
+                        <img src={copadoLogo} class="certlogo"/>
+                        <span>{certi}</span>
+                    </div>
+                </lightning-layout-item>
+            </template>
+    
+        </lightning-layout>
+    </template>
+   
+
+    <template if:true={otherCertiList.length}>
+        <h1 class="slds-var-m-around_medium">Other Certifications</h1>
+        <lightning-layout multiple-rows>
+            <template for:each={otherCertiList} for:item="certi">
+                <lightning-layout-item key={certi} padding="around-small" size="12" medium-device-size="4" small-device-size="6">
+                    <div class="cert-box">
+                        <img src={otherCertiLogo} class="certlogo"/>
+                        <span>{certi}</span>
+                    </div>
+                </lightning-layout-item>
+            </template>
+    
+        </lightning-layout>
+    </template>
+   
+</template>

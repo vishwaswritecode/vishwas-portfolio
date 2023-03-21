@@ -1,0 +1,32 @@
+.show-tabs-on-desktop-view{
+    display: block;
+}
+
+.show-accordian-on-mobile-view{
+    display: none;
+}
+
+@media (max-width:1024px) {
+    .show-tabs-on-desktop-view{
+        display: none;
+    }
+    
+    .show-accordian-on-mobile-view{
+        display: block;
+    }
+    
+}
+
+@media (max-width:720px) {
+    .tabs-wrapper{
+        /* background: black;
+        color: white; */
+        text-align: center;
+        background: #fff;
+    }
+    
+}
+
+.accordion-wrapper{
+    background: #fff;
+}

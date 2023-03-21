@@ -1,0 +1,20 @@
+.certlogo{
+    height: 50px;
+    margin-right: 10px;
+}
+
+.cert-box{
+    padding: 12px;
+    background: #4fbf4b;
+    font-size: 14px;
+    text-align: justify;
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    justify-content: left;
+}
+
+.cert-box:hover{
+    background-color: #d8d8d8;
+    cursor :pointer;
+}

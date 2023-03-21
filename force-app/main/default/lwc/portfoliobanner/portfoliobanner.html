@@ -1,0 +1,25 @@
+<template>
+    <div class="banner">
+        <img src={userPic} class="profile-pic"/>
+        <div class="name">{fullName}</div>
+        <div class="designation">{designation} @ {companyName}</div>
+        <div class="location">{companyLocation}</div>
+        <div>
+            <template if:true={linkedInUrl}>
+                <a href={linkedInUrl} target="_blank">
+                    <img src={linkedInPic} class="social-icons"/>
+                </a>
+            </template>
+            <template if:true={gitHubUrl}>
+                <a href={gitHubUrl} target="_blank">
+                    <img src={gitHubPic} class="social-icons"/>
+                </a>
+            </template>
+           <template if:true={trailHeadUrl}>
+                <a href={trailHeadUrl} target="_blank">
+                    <img src={trailHeadPic} class="social-icons"/>
+                </a>
+           </template>
+        </div>
+    </div>
+</template>

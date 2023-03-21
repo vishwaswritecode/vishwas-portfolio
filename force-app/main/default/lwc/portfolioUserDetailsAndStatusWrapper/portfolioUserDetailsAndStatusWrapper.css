@@ -1,0 +1,12 @@
+.userDetailsAndStatsWrapper{
+    padding: 16px;
+    background: #e1e2eb
+}
+
+@media (max-width:720px) {
+    .userDetailsAndStatsWrapper{
+        text-align: center;
+        background: #fff;
+    }
+    
+}
