@@ -1,0 +1,111 @@
+{
+  "activeBrandingSetId" : "56b7394b-50c0-41a0-94d4-d022545f5f04",
+  "customCSS" : "",
+  "developerName" : "byo",
+  "id" : "aad32160-b7f6-40ae-ab98-7f3992c47ea5",
+  "label" : "Build Your Own (LWR)",
+  "layouts" : {
+    "Inner" : "b6983757-069b-4d10-80c2-4748124c348f",
+    "ServiceNotAvailable" : "fac25529-b37d-4290-ac90-1c57d92f662b"
+  },
+  "type" : "theme",
+  "views" : [ {
+    "componentAttributes" : { },
+    "componentName" : "community_byo:scopedHeaderAndFooter",
+    "id" : "b6983757-069b-4d10-80c2-4748124c348f",
+    "label" : "Scoped Header and Footer",
+    "regions" : [ {
+      "components" : [ {
+        "componentAttributes" : {
+          "backgroundImageConfig" : "",
+          "backgroundImageOverlay" : "rgba(0,0,0,0)",
+          "sectionConfig" : "{\"UUID\":\"69a89259-fe93-46cb-b1f3-72ad275c5875\",\"columns\":[{\"UUID\":\"076cc746-e266-46a1-ae00-711abc754abf\",\"columnName\":\"Column 1\",\"columnKey\":\"headerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+        },
+        "componentName" : "community_layout:section",
+        "id" : "69a89259-fe93-46cb-b1f3-72ad275c5875",
+        "regions" : [ {
+          "components" : [ {
+            "componentAttributes" : {
+              "gitHubUrl" : "https://github.com/vishwaswritecode",
+              "linkedInUrl" : "https://www.linkedin.com/in/vishwas-j-733375140/",
+              "recordId" : "a045g00000D4axfAAB",
+              "trailHeadUrl" : "https://trailblazer.me/id/vishwasjyothula"
+            },
+            "componentName" : "c:portfoliobanner",
+            "id" : "279ab9f0-a040-40c8-a5d5-70c9065da214",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "076cc746-e266-46a1-ae00-711abc754abf",
+          "regionLabel" : "Theme Header",
+          "regionName" : "headerSection",
+          "renditionMap" : { },
+          "type" : "region"
+        } ],
+        "renditionMap" : { },
+        "scopedBrandingSetId" : null,
+        "type" : "component"
+      } ],
+      "id" : "7a19920a-f77f-4e3c-bff1-42a7d1681a49",
+      "regionName" : "header",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "backgroundImageConfig" : "",
+          "backgroundImageOverlay" : "rgba(0,0,0,0)",
+          "sectionConfig" : "{\"UUID\":\"f5586d13-25b5-4ed4-8265-b06a2d32df59\",\"columns\":[{\"UUID\":\"efe5fe39-a727-4930-946b-8d29e1b3c51e\",\"columnName\":\"Column 1\",\"columnKey\":\"footerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+        },
+        "componentName" : "community_layout:section",
+        "id" : "f5586d13-25b5-4ed4-8265-b06a2d32df59",
+        "regions" : [ {
+          "components" : [ {
+            "componentAttributes" : {
+              "objectApiName" : "Portfolio__c",
+              "recordId" : "a045g00000D4axfAAB"
+            },
+            "componentName" : "c:portfolioTabsWrapper",
+            "id" : "80dee2ae-bec1-4e5b-8461-6df7fd2b0676",
+            "renditionMap" : { },
+            "type" : "component"
+          }, {
+            "componentAttributes" : {
+              "richTextValue" : "<div style=\"padding-top:16px;background:#fff\">\n<p style=\"background:#4fbf4b;text-align:center\">This website was build by VishwasKumar \n<img style=\"width: 30px;border-radius:50px\"src=\"https://cdn-icons-png.flaticon.com/512/3242/3242257.png\" ></p>\n</div>"
+            },
+            "componentName" : "community_builder:htmlEditor",
+            "id" : "4dff9a48-f3c1-4261-b752-446c620c11a9",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "efe5fe39-a727-4930-946b-8d29e1b3c51e",
+          "regionLabel" : "Theme Footer",
+          "regionName" : "footerSection",
+          "renditionMap" : { },
+          "type" : "region"
+        } ],
+        "renditionMap" : { },
+        "scopedBrandingSetId" : null,
+        "type" : "component"
+      } ],
+      "id" : "d8410df7-571b-4271-93bd-93bc9afecc60",
+      "regionName" : "footer",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : { },
+    "componentName" : "community_layout:simpleThemeLayout",
+    "id" : "fac25529-b37d-4290-ac90-1c57d92f662b",
+    "label" : "Service Not Available Theme Layout",
+    "regions" : [ {
+      "id" : "c71cdf84-6991-42bd-8c22-1c40c59eca31",
+      "regionName" : "header",
+      "type" : "region"
+    }, {
+      "id" : "91fe9295-d7f3-4808-af7a-245818bfa60f",
+      "regionName" : "footer",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  } ]
+}

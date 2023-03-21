@@ -1,0 +1,12 @@
+{
+  "cmsSettings" : { },
+  "currentThemeId" : "aad32160-b7f6-40ae-ab98-7f3992c47ea5",
+  "favIconAssetRef" : null,
+  "headMarkup" : "<meta charset=\"UTF-8\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n<title>Welcome to LWC Communities!</title>\n\n<link rel=\"stylesheet\" href=\"{ basePath }/assets/styles/styles.css?{ versionKey }\" />\n\n\n<!-- webruntime-branding-shared stylesheets -->\n<link rel=\"stylesheet\" href=\"{ basePath }/assets/styles/salesforce-lightning-design-system.min.css?{ versionKey }\" />\n<link rel=\"stylesheet\" href=\"{ basePath }/assets/styles/dxp-site-spacing-styling-hooks.min.css?{ versionKey }\" />\n<link rel=\"stylesheet\" href=\"{ basePath }/assets/styles/dxp-styling-hooks.min.css?{ versionKey }\" />\n<link rel=\"stylesheet\" href=\"{ basePath }/assets/styles/dxp-slds-extensions.min.css?{ versionKey }\" />\n\n<style>\n c-portfolio-user-details lightning-output-field span.slds-form-element__label{\n\tfont-size: 18px;\n    font-weight: 700;\n\tcolor : black;\n}\n  c-portfolio-user-details lightning-output-field a,  c-portfolio-user-details lightning-output-field .slds-form-element__static{\n\tfont-size: 18px;\n    font-weight: 700;\n    color : #1c71ba;\n\t\n}\n   c-portfolio-tabs-wrapper ul.slds-tabs_scoped__nav{\n    background:  #4fbf4b;\n}\n    c-portfolio-tabs-wrapper button.slds-accordion__summary-action{\n    background:#4fbf4b;\n    font-weight:700;\n    padding:8px 16px;\n    margin:8px 8px 0px 8px;\n}\n    \nc-portfolio-summary span{\n    font-size: 15px;\n    text-align: justify;\n}\n    c-portfolio-string-to-html ul{\n    font-size:15px;\n    text-align:justify;\n}\n\n</style>\n\n<!-- webruntime-branding-shared stylesheets -->",
+  "id" : "fa0fb04b-d49a-49b0-98f8-0d01fc499086",
+  "isLockerServiceEnabled" : true,
+  "isRelaxedCSPLevel" : false,
+  "label" : "main",
+  "templateName" : "talon-template-byo",
+  "type" : "appPage"
+}

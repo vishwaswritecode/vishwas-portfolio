@@ -1,0 +1,71 @@
+{
+  "appPageId" : "fa0fb04b-d49a-49b0-98f8-0d01fc499086",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "dataProviders" : [ ],
+  "id" : "287cf2e3-5042-4642-8c9b-4dbe17fb8827",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"cc27f3cb-0690-4690-a08f-f042feaffc52\",\"columns\":[{\"UUID\":\"4c7b6564-1b79-42f7-8115-36a649a4ce27\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "cc27f3cb-0690-4690-a08f-f042feaffc52",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "badges" : "120+",
+            "certifications" : "4",
+            "copadoCertifications" : "3",
+            "objectApiName" : "Portfolio__c",
+            "points" : "98+",
+            "rank" : "Ranger",
+            "recordId" : "a045g00000D4axfAAB",
+            "resumeURL" : "https://raw.githubusercontent.com/vishwaswritecode/vishwas-resume/main/vishwas%2Bresume.pdf",
+            "trails" : "10+",
+            "vlocityCertifications" : "1"
+          },
+          "componentName" : "c:portfolioUserDetailsAndStatusWrapper",
+          "id" : "d232ad77-4bbc-4464-a420-2f8f0a789804",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "4c7b6564-1b79-42f7-8115-36a649a4ce27",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "6aacd780-468a-44f7-8e9f-b0f965de43b2",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "I am Vishwas Kumar Salesforce Developer.",
+        "pageTitle" : "Vishwas Kumar | Portfolio",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "community_builder:seoAssistant",
+      "id" : "2b27768f-ba2a-4ee8-8ae0-6d92a2bf7107",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8b2648f2-8f7e-49cd-bf64-1aae38fec32a",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "home"
+}
