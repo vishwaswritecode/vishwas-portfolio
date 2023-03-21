@@ -1,0 +1,84 @@
+<template>
+    <c-notification></c-notification>
+    <div class="app">
+        <div class="box box-center" onclick={createNoteHandler}>
+            <div class="dotted-circle">
+                <lightning-icon class="custom-icon" icon-name='utility:add' alternative-text='add' size='large' title='add'></lightning-icon>
+            </div>
+            <h2>Add New Note</h2>
+        </div>
+
+        <template for:each={noteList} for:item="note">
+            <div class="box slds-var-m-bottom_medium" key={note.Id}>
+                <header class="note-pad-header">
+                     <h2 class="slds-truncate">{note.Name}</h2>
+                </header>
+                <div class="notes">
+                    <c-append-h-t-m-l result={note.Note_Description__c}></c-append-h-t-m-l>
+                     <!-- {note.Note_Description__c} -->
+                </div>
+                <footer class="footer">
+                     <div class="date">{note.formattedDate}</div>
+                     <div>
+                         <lightning-icon class ="edit-icon slds-var-m-right_x-small" icon-name='action:edit' alternative-text='edit' 
+                                size='xx-small' title='Edit Note' 
+                                data-recordid = {note.Id}
+                                onclick={editNotes} >
+                        </lightning-icon>
+                         <lightning-icon class ="delete-icon" 
+                                icon-name='action:delete' 
+                                alternative-text='delete' 
+                                size='xx-small' title='Delete Note'
+                                data-recordid = {note.Id} 
+                                onclick={deleteNotes}>
+                        </lightning-icon>  
+                     </div>       
+                 </footer>
+             </div>
+        </template>
+        <!-- <div class="box slds-var-m-bottom_medium">
+           <header class="note-pad-header">
+                <h2 class="slds-truncate">Note Heading</h2>
+           </header>
+           <div class="notes">
+                description text will come!
+           </div>
+           <footer class="footer">
+                <div class="date"> Tud 2023 5 PM </div>
+                <div>
+                    <lightning-icon class ="edit-icon slds-var-m-right_x-small" icon-name='action:edit' alternative-text='edit' size='xx-small' title='Edit Note'></lightning-icon>
+                    <lightning-icon class ="delete-icon" icon-name='action:delete' alternative-text='delete' size='xx-small' title='Delete Note'></lightning-icon>  
+                </div>       
+            </footer>
+        </div> -->
+    </div>
+
+
+    <template if:true={showModal}>
+        <c-modal>
+            <h1 slot="header" class="slds-modal__title">Add New Note</h1>
+            <form>
+                <lightning-input 
+                    type="text" 
+                    label="Title" 
+                    name="Name" 
+                    value={newRecord.Name}
+                    onchange={changeHandler}>
+                </lightning-input>
+                <lightning-input-rich-text
+                    label="Description"
+                    name="Note_Description__c"
+                    label-visible
+                    value={newRecord.Note_Description__c}
+                    onchange={changeHandler}>
+                </lightning-input-rich-text>
+            </form>
+            <footer slot="footer">
+                <button class="slds-button slds-button_neutral" onclick={closeModal}>Cancel</button>
+                <button class="slds-button slds-button_neutral" onclick={formSaveHandler} disabled={isFormInvalid}>Save</button>
+    
+            </footer>
+        </c-modal>
+    </template>
+    
+</template>

@@ -1,0 +1,21 @@
+<template>
+    <div class="app flex-center">
+        <div class="app-card">
+            <header class="header">
+                <h1>
+                    Weather App
+                </h1>
+            </header>
+            <template if:true={loadingText}>
+                <div class={loadingClasses}>{loadingText}</div>
+            </template>
+            
+            <section class="slds-m-around_large">
+                <form onsubmit={submitHandler}>
+                    <input class="input width-100" type="text" placeholder="Enter City Name" required onkeyup={searchHandler}></input>
+                    <button  type="submit" class="button slds-m-top_large" >Search</button>
+                </form>
+            </section>
+        </div>
+    </div>
+</template>

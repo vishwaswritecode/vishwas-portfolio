@@ -1,0 +1,59 @@
+.app{
+    background: #091f43;
+    height: 100vb;
+}
+.app-card{
+    background: #ffff;
+    max-width: 400px;
+    min-width: 375px;
+    border-radius: 8px;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    font-size: 20px;
+    color: #091f43;
+    padding: 16px;
+    border-bottom: 1px solid #ccc;
+    font-size: 28px;
+    font-weight: 500;
+}
+.input{
+    
+    padding: 16px;
+    height: 55px;
+    outline: none;
+    font-size: 24px;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+}
+.width-100{
+    width: 100%;
+}
+.button{
+    width: 100%;
+    background: red;
+    height: 55px;
+    border-radius: none;
+    outline: none;
+    font-size: 24px;
+    border-radius: 8px;
+    color: #ccc;
+}
+.success-msg{
+    color: green;
+    background: floralwhite;
+    border-radius: 5px;
+    padding: 12px;
+    margin: 12px;
+}
+.error-msg{
+    color: red;
+    background: floralwhite;
+    border-radius: 5px;
+    padding: 12px;
+    margin: 12px;
+}

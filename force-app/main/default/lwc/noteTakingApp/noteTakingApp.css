@@ -1,0 +1,80 @@
+:host(){
+    --dark-blue :#022451;
+    --white:#fff;
+}
+.app{
+    background: var(--dark-blue);
+    min-height: 100vh;
+    font-size: 16px;
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background: var(--white);
+    border-radius: 12px;
+    margin: 12px;
+}
+.box-center{
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer
+}
+.dotted-circle{
+    border: 2px solid var(--dark-blue);
+    border-radius: 50px;
+    padding: 16px
+}
+h2{
+    font-size: 20px;
+    font-weight: 700;
+    /* margin-top: 12px; */
+}
+.custom-icon{
+    --slds-c-icon-color-foreground-default :var(--dark-blue)
+
+}
+.edit-icon{
+    --slds-c-icon-color-background : var(--dark-blue)
+}
+.delete-icon{
+    --slds-c-icon-color-background :red
+    
+}
+.note-pad-header{
+    background: #0076d3;
+    color:#fff;
+    padding: 4px 16px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+
+}
+
+.notes{
+    height: 130px;
+    overflow: auto;
+    padding: 4px 16px;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 16px;
+    background: #6D6D6D;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+    
+}
+.date{
+    color:#c9c9c9;
+    font-size: small;
+    font-style: italic;
+}
