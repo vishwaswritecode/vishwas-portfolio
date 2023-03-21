@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Read</externalSharingModel>
+    <fields>
+        <fullName>Address__c</fullName>
+        <externalId>false</externalId>
+        <label>Address</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Awards__c</fullName>
+        <externalId>false</externalId>
+        <label>Awards</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CompanyLocation__c</fullName>
+        <externalId>false</externalId>
+        <label>Company Location</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CompanyName__c</fullName>
+        <externalId>false</externalId>
+        <label>Company Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Designation__c</fullName>
+        <externalId>false</externalId>
+        <label>Designation</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FullName__c</fullName>
+        <externalId>false</externalId>
+        <label>Full Name</label>
+        <length>50</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Languages__c</fullName>
+        <externalId>false</externalId>
+        <label>Languages</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>MobileNo__c</fullName>
+        <externalId>false</externalId>
+        <label>Mobile No</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Other_Certifications__c</fullName>
+        <externalId>false</externalId>
+        <label>Other Certifications</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Salesforce_Certifications__c</fullName>
+        <externalId>false</externalId>
+        <label>Salesforce Certifications</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Administrator</fullName>
+                    <default>false</default>
+                    <label>Administrator</label>
+                </value>
+                <value>
+                    <fullName>Advanced Administrator</fullName>
+                    <default>false</default>
+                    <label>Advanced Administrator</label>
+                </value>
+                <value>
+                    <fullName>Platform App Builder</fullName>
+                    <default>false</default>
+                    <label>Platform App Builder</label>
+                </value>
+                <value>
+                    <fullName>Platform Developer 1</fullName>
+                    <default>false</default>
+                    <label>Platform Developer 1</label>
+                </value>
+                <value>
+                    <fullName>Platform Developer 2</fullName>
+                    <default>false</default>
+                    <label>Platform Developer 2</label>
+                </value>
+                <value>
+                    <fullName>Javascript Developer 1</fullName>
+                    <default>false</default>
+                    <label>Javascript Developer 1</label>
+                </value>
+                <value>
+                    <fullName>Commerce Cloud Developer</fullName>
+                    <default>false</default>
+                    <label>Commerce Cloud Developer</label>
+                </value>
+                <value>
+                    <fullName>OmniStudio Developer</fullName>
+                    <default>false</default>
+                    <label>OmniStudio Developer</label>
+                </value>
+                <value>
+                    <fullName>Data Architecture and Management Designer</fullName>
+                    <default>false</default>
+                    <label>Data Architecture and Management Designer</label>
+                </value>
+                <value>
+                    <fullName>Sharing and Visibility Designer</fullName>
+                    <default>false</default>
+                    <label>Sharing and Visibility Designer</label>
+                </value>
+                <value>
+                    <fullName>Development Lifecycle and Deployment Designer</fullName>
+                    <default>false</default>
+                    <label>Development Lifecycle and Deployment Designer</label>
+                </value>
+                <value>
+                    <fullName>Application Architect</fullName>
+                    <default>false</default>
+                    <label>Application Architect</label>
+                </value>
+                <value>
+                    <fullName>System Architect</fullName>
+                    <default>false</default>
+                    <label>System Architect</label>
+                </value>
+                <value>
+                    <fullName>Technical Architect</fullName>
+                    <default>false</default>
+                    <label>Technical Architect</label>
+                </value>
+                <value>
+                    <fullName>Heroku Architect</fullName>
+                    <default>false</default>
+                    <label>Heroku Architect</label>
+                </value>
+                <value>
+                    <fullName>Integration Architect</fullName>
+                    <default>false</default>
+                    <label>Integration Architect</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Salesforce_Devops_Certifications__c</fullName>
+        <externalId>false</externalId>
+        <label>Salesforce Devops Certifications</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Copado Fundamentals II</fullName>
+                    <default>false</default>
+                    <label>Copado Fundamentals II</label>
+                </value>
+                <value>
+                    <fullName>Copado Consultant</fullName>
+                    <default>false</default>
+                    <label>Copado Consultant</label>
+                </value>
+                <value>
+                    <fullName>Copado Robotic Testing</fullName>
+                    <default>false</default>
+                    <label>Copado Robotic Testing</label>
+                </value>
+                <value>
+                    <fullName>Copado Fundamentals I</fullName>
+                    <default>false</default>
+                    <label>Copado Fundamentals I</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Soft_Skills__c</fullName>
+        <externalId>false</externalId>
+        <label>Soft Skills</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>50</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Software_Methodologies__c</fullName>
+        <externalId>false</externalId>
+        <label>Software Methodologies</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>50</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Software_Tools__c</fullName>
+        <externalId>false</externalId>
+        <label>Software Tools</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>50</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Summary__c</fullName>
+        <externalId>false</externalId>
+        <label>Summary</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>50</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Super_Badges__c</fullName>
+        <externalId>false</externalId>
+        <label>Super Badges</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Access Governance Superbadge Unit</fullName>
+                    <default>false</default>
+                    <label>Access Governance Superbadge Unit</label>
+                </value>
+                <value>
+                    <fullName>Admin Super Set</fullName>
+                    <default>false</default>
+                    <label>Admin Super Set</label>
+                </value>
+                <value>
+                    <fullName>Advanced Apex Specialist</fullName>
+                    <default>false</default>
+                    <label>Advanced Apex Specialist</label>
+                </value>
+                <value>
+                    <fullName>Advanced Billing Specialist</fullName>
+                    <default>false</default>
+                    <label>Advanced Billing Specialist</label>
+                </value>
+                <value>
+                    <fullName>Apex Specialist</fullName>
+                    <default>false</default>
+                    <label>Apex Specialist</label>
+                </value>
+                <value>
+                    <fullName>App Builder Super Set</fullName>
+                    <default>false</default>
+                    <label>App Builder Super Set</label>
+                </value>
+                <value>
+                    <fullName>App Customization Specialist</fullName>
+                    <default>false</default>
+                    <label>App Customization Specialist</label>
+                </value>
+                <value>
+                    <fullName>Approval Process Management Superbadge Unit</fullName>
+                    <default>false</default>
+                    <label>Approval Process Management Superbadge Unit</label>
+                </value>
+                <value>
+                    <fullName>Approval Process Specialist Superbadge</fullName>
+                    <default>false</default>
+                    <label>Approval Process Specialist Superbadge</label>
+                </value>
+                <value>
+                    <fullName>Approval Process Troubleshooting Superbadge Unit</fullName>
+                    <default>false</default>
+                    <label>Approval Process Troubleshooting Superbadge Unit</label>
+                </value>
+                <value>
+                    <fullName>Authentication Governance Superbadge Unit</fullName>
+                    <default>false</default>
+                    <label>Authentication Governance Superbadge Unit</label>
+                </value>
+                <value>
+                    <fullName>Billing Specialist</fullName>
+                    <default>false</default>
+                    <label>Billing Specialist</label>
+                </value>
+                <value>
+                    <fullName>Billing Specialist Super Set</fullName>
+                    <default>false</default>
+                    <label>Billing Specialist Super Set</label>
+                </value>
+                <value>
+                    <fullName>Business Administration Specialist</fullName>
+                    <default>false</default>
+                    <label>Business Administration Specialist</label>
+                </value>
+                <value>
+                    <fullName>CRM Analytics Data Preparation Specialist</fullName>
+                    <default>false</default>
+                    <label>CRM Analytics Data Preparation Specialist</label>
+                </value>
+                <value>
+                    <fullName>CRM Analytics Super Set</fullName>
+                    <default>false</default>
+                    <label>CRM Analytics Super Set</label>
+                </value>
+                <value>
+                    <fullName>CRM Analytics and Einstein Discovery Insights Specialist</fullName>
+                    <default>false</default>
+                    <label>CRM Analytics and Einstein Discovery Insights Specialist</label>
+                </value>
+                <value>
+                    <fullName>Data Categorization and Access Superbadge Unit</fullName>
+                    <default>false</default>
+                    <label>Data Categorization and Access Superbadge Unit</label>
+                </value>
+                <value>
+                    <fullName>Data Integration Specialist</fullName>
+                    <default>false</default>
+                    <label>Data Integration Specialist</label>
+                </value>
+                <value>
+                    <fullName>Data Protection Superbadge Unit</fullName>
+                    <default>false</default>
+                    <label>Data Protection Superbadge Unit</label>
+                </value>
+                <value>
+                    <fullName>Data Security Specialist Superbadge</fullName>
+                    <default>false</default>
+                    <label>Data Security Specialist Superbadge</label>
+                </value>
+                <value>
+                    <fullName>Developer Super Set</fullName>
+                    <default>false</default>
+                    <label>Developer Super Set</label>
+                </value>
+                <value>
+                    <fullName>Extended User Access and Restriction Superbadge Unit</fullName>
+                    <default>false</default>
+                    <label>Extended User Access and Restriction Superbadge Unit</label>
+                </value>
+                <value>
+                    <fullName>Financial Services Cloud Specialist</fullName>
+                    <default>false</default>
+                    <label>Financial Services Cloud Specialist</label>
+                </value>
+                <value>
+                    <fullName>Flow Administration Superbadge Unit</fullName>
+                    <default>false</default>
+                    <label>Flow Administration Superbadge Unit</label>
+                </value>
+                <value>
+                    <fullName>Flow Elements and Resources Specialist Superbadge</fullName>
+                    <default>false</default>
+                    <label>Flow Elements and Resources Specialist Superbadge</label>
+                </value>
+                <value>
+                    <fullName>Flow Fundamentals Superbadge Unit</fullName>
+                    <default>false</default>
+                    <label>Flow Fundamentals Superbadge Unit</label>
+                </value>
+                <value>
+                    <fullName>Flow Optimization Superbadge Unit</fullName>
+                    <default>false</default>
+                    <label>Flow Optimization Superbadge Unit</label>
+                </value>
+                <value>
+                    <fullName>Health Cloud Specialist</fullName>
+                    <default>false</default>
+                    <label>Health Cloud Specialist</label>
+                </value>
+                <value>
+                    <fullName>Lightning Experience Reports &amp; Dashboards Specialist</fullName>
+                    <default>false</default>
+                    <label>Lightning Experience Reports &amp; Dashboards Specialist</label>
+                </value>
+                <value>
+                    <fullName>Lightning Implementation Specialist</fullName>
+                    <default>false</default>
+                    <label>Lightning Implementation Specialist</label>
+                </value>
+                <value>
+                    <fullName>Lightning Web Components Specialist</fullName>
+                    <default>false</default>
+                    <label>Lightning Web Components Specialist</label>
+                </value>
+                <value>
+                    <fullName>Multi-Factor Authentication and Single Sign-On Settings Superbadge Unit</fullName>
+                    <default>false</default>
+                    <label>Multi-Factor Authentication and Single Sign-On Settings Superbadge Unit</label>
+                </value>
+                <value>
+                    <fullName>Process Automation Specialist Superbadge</fullName>
+                    <default>false</default>
+                    <label>Process Automation Specialist Superbadge</label>
+                </value>
+                <value>
+                    <fullName>Salesforce Security Advocate Superbadge Unit</fullName>
+                    <default>false</default>
+                    <label>Salesforce Security Advocate Superbadge Unit</label>
+                </value>
+                <value>
+                    <fullName>Screen Flow Distribution Superbadge Unit</fullName>
+                    <default>false</default>
+                    <label>Screen Flow Distribution Superbadge Unit</label>
+                </value>
+                <value>
+                    <fullName>Screen Flow Fundamentals Superbadge Unit</fullName>
+                    <default>false</default>
+                    <label>Screen Flow Fundamentals Superbadge Unit</label>
+                </value>
+                <value>
+                    <fullName>Screen Flow Specialist Superbadge</fullName>
+                    <default>false</default>
+                    <label>Screen Flow Specialist Superbadge</label>
+                </value>
+                <value>
+                    <fullName>Secure Application Lifecycle Management Superbadge Unit</fullName>
+                    <default>false</default>
+                    <label>Secure Application Lifecycle Management Superbadge Unit</label>
+                </value>
+                <value>
+                    <fullName>Security Advocacy Specialist Superbadge</fullName>
+                    <default>false</default>
+                    <label>Security Advocacy Specialist Superbadge</label>
+                </value>
+                <value>
+                    <fullName>Security Governance Specialist Superbadge</fullName>
+                    <default>false</default>
+                    <label>Security Governance Specialist Superbadge</label>
+                </value>
+                <value>
+                    <fullName>Security Specialist Superbadge</fullName>
+                    <default>false</default>
+                    <label>Security Specialist Superbadge</label>
+                </value>
+                <value>
+                    <fullName>Selling with Sales Cloud Specialist</fullName>
+                    <default>false</default>
+                    <label>Selling with Sales Cloud Specialist</label>
+                </value>
+                <value>
+                    <fullName>Service Cloud Specialist</fullName>
+                    <default>false</default>
+                    <label>Service Cloud Specialist</label>
+                </value>
+                <value>
+                    <fullName>User Access Fundamentals Superbadge Unit</fullName>
+                    <default>false</default>
+                    <label>User Access Fundamentals Superbadge Unit</label>
+                </value>
+                <value>
+                    <fullName>User Access Specialist Superbadge</fullName>
+                    <default>false</default>
+                    <label>User Access Specialist Superbadge</label>
+                </value>
+                <value>
+                    <fullName>User Access Troubleshooting Superbadge Unit</fullName>
+                    <default>false</default>
+                    <label>User Access Troubleshooting Superbadge Unit</label>
+                </value>
+                <value>
+                    <fullName>User Authentication Settings Superbadge Unit</fullName>
+                    <default>false</default>
+                    <label>User Authentication Settings Superbadge Unit</label>
+                </value>
+                <value>
+                    <fullName>User Authentication Specialist Superbadge</fullName>
+                    <default>false</default>
+                    <label>User Authentication Specialist Superbadge</label>
+                </value>
+                <value>
+                    <fullName>User Authentication Troubleshooting Superbadge Unit</fullName>
+                    <default>false</default>
+                    <label>User Authentication Troubleshooting Superbadge Unit</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Technical_Skills__c</fullName>
+        <externalId>false</externalId>
+        <label>Technical Skills</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>50</visibleLines>
+    </fields>
+    <label>Portfolio</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Portfolio Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Portfolios</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <startsWith>Vowel</startsWith>
+    <visibility>Public</visibility>
+</CustomObject>
